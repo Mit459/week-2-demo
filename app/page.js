@@ -99,10 +99,13 @@ export default function Home() {
 //     </div>
 //   );
 // }
+let a = 5;
+let b = 10;
 return(
   <div>
     <h1>My app week-2</h1>
     <p><Link href="/week-2">Go to week 2</Link></p>
+    <p>The addition is {a+b}</p>
   </div>
 );
 }
